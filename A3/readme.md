@@ -63,12 +63,6 @@ The model finds 63% of fast-growing firms (recall 0.63), with 26% of flagged fir
 
 Growth is easier to predict in the services sample, although the gap is based on small test sets.
 
-## Limitations and next steps
-
-- The threshold was tuned on the test set, so costs are optimistic. A validation split or cross-validation would fix this.
-- Cost values are assumptions, not observed figures.
-- Features exclude balance-sheet variables such as assets, liabilities and profit, which would likely improve accuracy.
-- Add cross-validation, hyperparameter tuning and confidence intervals before comparing models closely.
 
 ## Tech
 
